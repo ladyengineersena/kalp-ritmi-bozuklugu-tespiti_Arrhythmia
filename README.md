@@ -16,7 +16,7 @@ Bu proje, elektrokardiyogram (EKG) sinyallerini analiz ederek çeşitli kalp rit
 - **Detaylı Görselleştirme**: EKG sinyalleri, confusion matrix, ROC eğileri
 - **Model Karşılaştırması**: Performans metrikleri ve görselleştirme
 
-## Proje Yapisi
+## Proje Yapısı
 
 `
 ekg_arrhythmia_detection/
@@ -81,12 +81,12 @@ python train.py --model both --epochs 100
 `
 
 ### Model Degerlendirmesi
-`ash
+`Bash
 python evaluate.py --cnn_model models/cnn_model.h5 --lstm_model models/lstm_model.h5
 `
 
 ### Tahmin Yapma
-`ash
+`Bash
 # Örnek veri ile tahmin
 python predict.py --model_path models/cnn_model.h5 --model_type cnn --generate_sample
 
@@ -98,10 +98,10 @@ python predict.py --model_path models/cnn_model.h5 --model_type cnn --data_path 
 
 ### 1D CNN Modeli
 - **Konvolusyonel Katmanlar**: 64, 128, 256, 512 filtre
-- **Batch Normalization**: EĞitim stabilitesi iÇin
+- **Batch Normalization**: Eğitim stabilitesi için
 - **Dropout**: Overfitting Önleme
 - **Global Average Pooling**: Boyut azaltma
-- **Dense Katmanlar**: 512, 256 noron
+- **Dense Katmanlar**: 512, 256 nöron
 
 ### LSTM Modeli
 - **Standard LSTM**: 128, 64, 32 LSTM birimi
@@ -150,7 +150,7 @@ Proje aşağıdaki görselleştirmeleri içerir:
 - **Loss Function**: Sparse Categorical Crossentropy
 - **Callbacks**: Early Stopping, Learning Rate Reduction, Model Checkpoint
 
-### Egitim Parametreleri
+### Eğitim Parametreleri
 - **Epochs**: 100
 - **Batch Size**: 32
 - **Learning Rate**: 0.001
