@@ -44,13 +44,13 @@ ekg_arrhythmia_detection/
 ## Kurulum
 
 1. Repository'yi klonlayın:
-`ash
+`Bash
 git clone https://github.com/ladyengineersena/kalp-ritmi-bozuklugu-tespiti_Arrhythmia.git
 cd kalp-ritmi-bozuklugu-tespiti_Arrhythmia
 `
 
 2. Gerekli paketleri yükleyin:
-`ash
+`Bash
 pip install -r requirements.txt
 `
 
