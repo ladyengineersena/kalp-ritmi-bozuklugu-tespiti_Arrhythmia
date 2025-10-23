@@ -64,12 +64,12 @@ Bu proje MIT-BIH Arrhythmia Database kullanir. Veri setini indirmek icin:
 ## Kullanim
 
 ### Veri Hazirlama
-`ash
+`Bash
 python src/data_loader.py
 `
 
 ### Model Egitimi
-`ash
+`Bash
 # CNN modeli egit
 python train.py --model cnn --epochs 100
 
