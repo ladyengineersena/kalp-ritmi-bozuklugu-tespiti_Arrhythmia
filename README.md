@@ -2,11 +2,11 @@
 
 Bu proje, EKG sinyallerini analiz ederek kalp ritmi bozukluklarini tespit etmek icin 1D CNN ve LSTM modellerini kullanir.
 
-## Proje Ozeti
+## Proje Özeti
 
 Bu proje, elektrokardiyogram (EKG) sinyallerini analiz ederek cesitli kalp ritmi bozukluklarini (arrhythmia) tespit etmek icin derin ogrenme modelleri gelistirir. Proje hem 1D Convolutional Neural Network (CNN) hem de Long Short-Term Memory (LSTM) modellerini icerir ve bu modellerin performanslarini karsilastirir.
 
-## Ozellikler
+## Özellikler
 
 - **1D CNN Modeli**: Konvolusyonel katmanlar ile lokal ozellik cikarimi
 - **LSTM Modeli**: Uzun-kisa vadeli bellek ile zaman serisi analizi
